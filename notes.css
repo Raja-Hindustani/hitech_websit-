@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f2f5f7;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ===== Header ===== */
+header.site-header {
+  background: #0d6efd;
+  color: #fff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-bottom: 4px solid #0040c0;
+}
+
+header .brand {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+header .logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+header .brand-text h1 {
+  font-size: 20px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+header .brand-text small {
+  font-size: 12px;
+  display: block;
+  margin-top: 2px;
+}
+
+header .main-nav {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+header .main-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background 0.3s, transform 0.3s;
+}
+
+header .main-nav a:hover {
+  background: #0040c0;
+  transform: translateY(-2px);
+}
+
+header .social-top {
+  display: flex;
+  justify-content: center; /* Center align icons */
+  gap: 25px; /* Spacing between icons */
+  font-size: 28px; /* Bigger size */
+  margin-top: 10px; /* Thoda upar se gap */
+}
+
+header .social-top a {
+  color: #fff;
+  transition: transform 0.3s, text-shadow 0.3s, color 0.3s;
+}
+
+header .social-top a:hover {
+  color: #ffd700; /* Gold on hover */
+  transform: translateY(-5px) scale(1.3); /* 3D lift effect */
+  text-shadow: 0 4px 8px rgba(0,0,0,0.3); /* Shadow for depth */
+}
+
+/* ===== Notes Section ===== */
+.notes-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+  color: #0d6efd;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.notes-category h3 {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 24px;
+  border-bottom: 2px solid #0d6efd;
+  padding-bottom: 5px;
+}
+
+.notes-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.note-card {
+  flex: 1 1 220px;
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  color: #0d6efd;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.note-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.3);
+}
+
+/* ===== Footer ===== */
+.site-footer {
+  background: #0d6efd;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.site-footer p {
+  margin: 0;
+}
